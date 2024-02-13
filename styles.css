@@ -1,0 +1,118 @@
+#main-title {
+    font-size: 150px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.intro {
+    font-size: 20px;
+    margin: 50px;
+}
+
+body {
+    text-align: center;
+}
+
+main {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.tab-container {
+    border-bottom: 1px groove #6f42c1;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 80px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.purple {
+    font-size: 20px;
+    color: white;
+    background-color: #6f42c1;
+    border: none;
+    height: 40px;
+}
+
+.tab {
+    margin-right: 1%;
+    border-radius: 10px;
+    padding-inline: 50px;
+}
+
+.tab:hover {
+    background-color: #295DCF;
+    transition: background-color 0.3s ease;
+}
+
+.word {
+    display: flexbox;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: #e3d9bf;
+    border-left: 10px solid black;
+    margin-bottom: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+#mist {
+    background-color: gainsboro;
+}
+
+.col {
+    display: flex;
+    align-items: center; /* Vertically center the images in the container */
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.photo-container {
+    display: flex;      /* Establishes a flex container */
+    align-items: center; /* Vertically center the images in the container */
+    justify-content: center; /* Horizontally center the images in the container */
+}
+  
+.photo-container img {
+    max-width: 100%;    /* Ensures the image is never more than 100% of the container */
+    height: auto;       /* Ensures the image maintains its aspect ratio */
+    display: block;     /* Prevents inline default alignment issues */
+    border-radius: 10px;
+}
+
+.card {
+    background-color: ghostwhite;
+    margin-left: 24%;
+    margin-right: 24%;
+}
+
+.btn-container {
+    padding-bottom: 20px;
+}
+
+.card-body {
+    text-align: left;
+}
+
+a {
+    color: #6f42c1;
+    text-decoration: none;
+}

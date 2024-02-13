@@ -1,0 +1,8 @@
+4 htmls
+10 distinct tags
+integrate Bootstrap
+one stylesheet <styles.css>
+    5 different CSS selectors
+    5 different properties
+integrate JavaScript
+mobile friendly
