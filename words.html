@@ -1,47 +1,56 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-        <link href="styles.css" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>My Words</title>
-    </head>
-    <body>
-        <header>
-            <div class="tab-container">
-                <button class="purple tab" onclick="openTab('index')">Home</button>
-                <button class="purple tab" onclick="openTab('words')">My Words</button>
-                <button class="purple tab" onclick="openTab('album')">My Album</button>
-                <button class="purple tab" onclick="openTab('dictionary')">My Dictionary</button>
-            </div>
-        </header>
-        <main>
-            <h1>My Words</h1>
-            <div class='word-container'>
-                <div class="intro">
-                    <p>Here are some inspirations I saved from the past.</p>
-                </div>
-                <div class="word">
-                    <p>My memory fades away like flowing sand. Every granule is a transient fracture of life.</p>
-                    <p>All of them deposited in the desert of oblivion, awaiting to be picked up... and then cached again.</p>
-                </div>
-                <div class="word">
-                    <p>It only takes a few minutes to die, but it takes a life to live. </p>
-                    <p>Living is a feat by itself.</p>
-                </div>
-                <div class="word">
-                    <p>I continually consumed myself in this shell. The reality is like a long dream. </p>
-                    <p>Yet sometime I was truly living, and henceforth, I could say, I am my own hero. </p>
-                    <p>In the rest of the time, I was just a parasite of the world.</p>
-                </div>
-                <div class="word">
-                    <p>We often squeeze the world into a thread and see as one-dimensional creatures:</p>
-                    <p>There are always someone behind, and someone ahead.</p>
-                </div>
-            </div>
-        </main>
-    </body>
-    <script src="scripts.js"></script>
+
+  <head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Words</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="tab-container">
+        <a class="tab" href="/">Home</a>
+        <a class="tab" href="/profile.html">Profile</a>
+        <a class="tab" href="/album.html">Album</a>
+        <a class="tab" href="/words.html">Words</a>
+      </div>
+    </header>
+    <main>
+      <div class="center">
+        <h1>Words</h1>
+        <div class="caption">
+          <a href="#">Inspirations</a>
+        </div>
+        <div class='word-container'>
+          <div class="word">
+            <p>My memory fades away like flowing sand. Every granule is a transient fracture of life.</p>
+            <p>All of them deposited in the desert of oblivion, awaiting to be picked up... and then cached
+              again.</p>
+          </div>
+          <div class="word">
+            <p>It only takes a few minutes to die, but it takes a life to live. </p>
+            <p>Living is a feat by itself.</p>
+          </div>
+          <div class="word">
+            <p>I continually consumed myself in this shell. The reality is like a long dream. </p>
+            <p>Yet sometime I was truly living, and henceforth, I could say, I am my own hero. </p>
+            <p>In the rest of the time, I was just a parasite of the world.</p>
+          </div>
+          <div class="word">
+            <p>We often squeeze the world into a thread and see as one-dimensional creatures:</p>
+            <p>There are always someone behind, and someone ahead.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+
 </html>

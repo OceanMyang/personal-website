@@ -1,49 +1,72 @@
-#main-title {
+body {
+    text-align: center;
+    background-color: ededed;
+    height: 100vh;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
     font-size: 150px;
     font-weight: 100;
     margin: 0;
 }
 
-.intro {
-    font-size: 20px;
-    margin: 50px;
+.title::before {
+    content: " ";
+    display: block;
+    height: 100px;
 }
 
-body {
+.caption {
     text-align: center;
+    width: 60vw;
+    padding: 50px;
+    font-size: 20px;
 }
 
-main {
-    margin-left: 80px;
-    margin-right: 80px;
-}
-
-.tab-container {
-    border-bottom: 1px groove #6f42c1;
-    padding: 30px;
+.blog {
+    text-align: left;
+    width: 60vw;
+    padding: 10px;
+    font-size: 20px;
 }
 
 h1 {
     font-size: 80px;
-    margin-top: 30px;
-    margin-bottom: 50px;
 }
 
-.purple {
-    font-size: 20px;
-    color: white;
-    background-color: #6f42c1;
-    border: none;
-    height: 40px;
+main {
+    padding: 30px;
+    height: calc(100vh - 130px);
+}
+
+.tab-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #07215b;
+    height: 130px;
+    gap: 50px;
 }
 
 .tab {
-    margin-right: 1%;
+    font-size: 20px;
+    color: white;
+    background-color: #bd42c1;
+    border: none;
     border-radius: 10px;
-    padding-inline: 50px;
+    padding-inline: 30px;
+    padding-block: 20px;
 }
 
 .tab:hover {
+    color: white;
     background-color: #295DCF;
     transition: background-color 0.3s ease;
 }
@@ -67,34 +90,39 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: ghostwhite;
+    background-color: gainsboro;
     border-radius: 10px;
     padding: 30px;
     margin-bottom: 50px;
 }
 
-#mist {
-    background-color: gainsboro;
-}
-
 .col {
     display: flex;
-    align-items: center; /* Vertically center the images in the container */
+    align-items: center;
     justify-content: center;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.photo-container {
-    display: flex;      /* Establishes a flex container */
-    align-items: center; /* Vertically center the images in the container */
-    justify-content: center; /* Horizontally center the images in the container */
+.image-container {
+    width: 200px;
+    padding: 20px;
 }
-  
+
+.image-container img {
+    border-radius: 10px;
+}
+
+.photo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .photo-container img {
-    max-width: 100%;    /* Ensures the image is never more than 100% of the container */
-    height: auto;       /* Ensures the image maintains its aspect ratio */
-    display: block;     /* Prevents inline default alignment issues */
+    max-width: 100%;
+    height: auto;
+    display: block;
     border-radius: 10px;
 }
 
